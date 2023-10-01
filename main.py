@@ -89,7 +89,7 @@ email.grid(column=0, row=2)
 password = Label(text="Password:")
 password.grid(column=0, row=3)
 
-# Entry
+# Entry, to add something into an entry --- use insert() method.
 input_website = Entry(width=52)
 input_website.grid(column=1, row=1, columnspan=2,sticky="w")
 input_website.focus()
